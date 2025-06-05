@@ -216,39 +216,6 @@ json
 通过这种多层次的架构和验证流程，该解决方案确保了 MCP 服务器的安全部署和访问，同时利用 Amazon Cognito 提供强大的身份验证和授权功能。这种设计不仅满足了安全需求，还提供了良好的用户体验和可扩展性。
 
 
-⚠️ This conversation is getting lengthy.
-To ensure continued smooth operation, please use /compact to summarize the conversation.
-
-> /save
-
-Error: path is required
-
-
-⚠️ This conversation is getting lengthy.
-To ensure continued smooth operation, please use /compact to summarize the conversation.
-
-> /compact
-
-✔ Conversation history has been compacted successfully!
-
-
-════════════════════════════════════════════════════════════════════════════════
-                       CONVERSATION SUMMARY
-════════════════════════════════════════════════════════════════════════════════
-
-## CONVERSATION SUMMARY
-* Analysis of the guidance-for-deploying-model-context-protocol-servers-on-aws project architecture
-* Examination of MCP Server and Amazon Cognito integration for secure authentication
-* Detailed explanation of OAuth 2.0 authorization flow between MCP Client, MCP Server, and AWS Cognito
-* Analysis of token binding and validation mechanisms
-
-## TOOLS EXECUTED
-* github___get_file_contents: Retrieved README.md providing project overview, architecture components, and deployment instructions
-* github___get_file_contents: Retrieved mcp-cognito-oauth-flow.md showing basic OAuth flow between MCP Client, Server, and Cognito
-* github___get_file_contents: Retrieved detailed-mcp-cognito-oauth-flow.md with comprehensive OAuth flow including client registration and token exchange
-* github___get_file_contents: Retrieved aws-cognito-mcp-integration.md showing technical architecture diagram of AWS components
-* github___get_file_contents: Retrieved token-binding-validation-flow.md explaining token structure and validation process
-
 ## KEY INSIGHTS
 * The project demonstrates secure MCP server deployment on AWS with Cognito authentication
 * Architecture includes CloudFront, ALB, ECS Fargate, Cognito, WAF, and DynamoDB components
@@ -258,6 +225,4 @@ To ensure continued smooth operation, please use /compact to summarize the conve
 * The system supports token refresh without requiring user re-authentication
 * Security is enhanced through HTTPS communication, WAF protection, and proper token binding
 
-The conversation history has been replaced with this summary.
-It contains all important details from previous interactions.
-════════════════════════════════════════════════════════════════════════════════
+
